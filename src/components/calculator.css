@@ -1,0 +1,61 @@
+.output {
+    height: 60px;
+    background-color: #bbb;
+    width: 100%;
+}
+  
+.output p {
+    font-size: 40px;
+    margin: 5px;
+}
+  
+.calculator {
+    max-width: 400px;
+    margin: auto;
+}
+  
+.button {
+    display: block;
+}
+.calculator-light {
+    color: #000;
+    background-color: #fff;
+}
+  
+.button-light button{
+    color: #000;
+    background-color: #f0f0f0;
+}
+.calculator-dark {
+    color: #fff;
+    background-color: #000;
+}
+  
+.button-dark button{
+    color: #fff;
+    background-color: #666;
+}
+
+button {
+    width: 25%;
+    height: 60px;
+    font-size: 30px;
+}
+.button-sm button{
+    width: 50%;
+    height: 60px;
+    font-size: 30px;
+}
+.button-sm button:first-child{
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+}
+.scibtn button:last-child{
+    width: 50%;
+    height: 60px;
+    font-size: 24px;
+}
+.scibtn button{
+    font-size: 24px;
+}
